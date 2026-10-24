@@ -1,0 +1,17 @@
+{
+  "candidate_resolutions": [
+    640,
+    768,
+    960
+  ],
+  "weights": "models/best.pt",
+  "split": "val",
+  "batch": 8,
+  "ap_confidence_floor": 0.001,
+  "nms_iou": 0.7,
+  "max_det": 300,
+  "selection": "Highest validation mAP50-95; require an absolute gain of at least0.001 over640 to adopt a higher input size. Ties prefer smaller input.",
+  "operating_confidence": "Validation macro-F1 maximum separately for each configuration.",
+  "test_used_for_resolution_selection": false,
+  "reason": "Lecturer requested controlled object-size/resolution diagnosis. Over60% of Brown spot training boxes are smaller than32x32 at native640."
+}

@@ -1,0 +1,5 @@
+# CUDA-specific PyTorch is installed separately; see setup.ps1.
+ultralytics==8.4.182
+torch==2.7.1
+torchvision==0.22.1
+Pillow>=11.0,<13

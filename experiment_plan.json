@@ -1,0 +1,35 @@
+{
+  "objective": "Test stronger candidates than YOLO26n and prepare a reproducible public submission.",
+  "selection_metric": "validation mAP50-95",
+  "test_used_for_selection": false,
+  "reference_model": "YOLO26n 12 epochs, 640; validation mAP50-95 0.3618386508213784",
+  "candidates": [
+    {
+      "name": "yolo26s_24b16",
+      "model": "yolo26s.pt",
+      "epochs": 24,
+      "imgsz": 640,
+      "batch": 16,
+      "lr0": 0.001,
+      "patience": 10,
+      "parent_training_epochs": 0
+    },
+    {
+      "name": "yolo11s_refine16",
+      "model": "models/yolo11s_parent.pt",
+      "epochs": 16,
+      "imgsz": 768,
+      "batch": 8,
+      "lr0": 0.0003,
+      "patience": 8,
+      "parent_training_epochs": 12
+    }
+  ],
+  "data_policy": "Same immutable 18-class cleaned splits; no test-driven candidate changes. No label merging.",
+  "budget_note": "YOLO26s has up to24 newepochs; YOLO11s inherits12 +up to16 newepochs and uses768px. Architecture, budget and resolution effects are not isolated.",
+  "fallback": "Keep validated YOLO26n if neither candidate improves validation mAP50-95. No promise of large gain.",
+  "sources": [
+    "https://docs.ultralytics.com/models/yolo26/",
+    "https://docs.ultralytics.com/models/yolo11/"
+  ]
+}

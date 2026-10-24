@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ultralytics/
+data/
+runs/
+outputs/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.engine
+.ipynb_checkpoints/
+reports/reproduction_dataset/
+reports/evaluation_reproduced/
