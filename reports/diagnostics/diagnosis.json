@@ -1,0 +1,513 @@
+{
+  "status": "complete",
+  "scope": "Training-only image balance/box sizes; validation AP used for diagnosis. No labels/splits changed.",
+  "evaluated_weights_sha256": "2b4a698f807590bea2a8f91bcd9d7b54b52f3b48d76640a421fb9fb9398d959b",
+  "evaluation_source": "reports/evaluation/metrics.json",
+  "selected_confidence": 0.26626626626626626,
+  "classes": [
+    {
+      "class_id": 0,
+      "class_name": "Bacterial panicle Blight",
+      "train_images": 443,
+      "train_boxes_effective": 450,
+      "train_boxes_before_loader": 450,
+      "small32_percent": 1.7777777777777777,
+      "min_side8_percent": 0.8888888888888888,
+      "median_area_px2": 142088.53479272875,
+      "val_AP50_percent": 83.31928348544511,
+      "val_AP50_95_percent": 58.09469719183604,
+      "val_precision_percent": 69.21721343305512,
+      "val_recall_percent": 84.44444444444444,
+      "val_F1_percent": 76.07635131734123
+    },
+    {
+      "class_id": 1,
+      "class_name": "False-Smut",
+      "train_images": 717,
+      "train_boxes_effective": 733,
+      "train_boxes_before_loader": 733,
+      "small32_percent": 1.364256480218281,
+      "min_side8_percent": 1.364256480218281,
+      "median_area_px2": 136319.78793461603,
+      "val_AP50_percent": 94.02232538231146,
+      "val_AP50_95_percent": 64.96186702121351,
+      "val_precision_percent": 87.51498965660288,
+      "val_recall_percent": 94.18604651162791,
+      "val_F1_percent": 90.72805593282152
+    },
+    {
+      "class_id": 2,
+      "class_name": "Healthy Rice Leaf",
+      "train_images": 592,
+      "train_boxes_effective": 596,
+      "train_boxes_before_loader": 596,
+      "small32_percent": 0.0,
+      "min_side8_percent": 0.0,
+      "median_area_px2": 104711.18469238281,
+      "val_AP50_percent": 89.83109952534979,
+      "val_AP50_95_percent": 78.03983467450273,
+      "val_precision_percent": 77.19167710809572,
+      "val_recall_percent": 94.87179487179486,
+      "val_F1_percent": 85.12338931839027
+    },
+    {
+      "class_id": 3,
+      "class_name": "Healthy Rice beads",
+      "train_images": 552,
+      "train_boxes_effective": 590,
+      "train_boxes_before_loader": 590,
+      "small32_percent": 5.254237288135593,
+      "min_side8_percent": 4.067796610169491,
+      "median_area_px2": 157992.96183488768,
+      "val_AP50_percent": 94.14117487851001,
+      "val_AP50_95_percent": 67.64145385107587,
+      "val_precision_percent": 92.48459198425377,
+      "val_recall_percent": 93.05555555555556,
+      "val_F1_percent": 92.76919525545892
+    },
+    {
+      "class_id": 4,
+      "class_name": "Infected Blast",
+      "train_images": 681,
+      "train_boxes_effective": 689,
+      "train_boxes_before_loader": 689,
+      "small32_percent": 1.1611030478955007,
+      "min_side8_percent": 0.8708272859216255,
+      "median_area_px2": 115128.75494451218,
+      "val_AP50_percent": 86.40323684403258,
+      "val_AP50_95_percent": 62.49054253556727,
+      "val_precision_percent": 75.55609600585788,
+      "val_recall_percent": 85.86956521739131,
+      "val_F1_percent": 80.38336735785435
+    },
+    {
+      "class_id": 5,
+      "class_name": "Leaf-roller",
+      "train_images": 676,
+      "train_boxes_effective": 683,
+      "train_boxes_before_loader": 683,
+      "small32_percent": 0.0,
+      "min_side8_percent": 0.0,
+      "median_area_px2": 116033.98423799808,
+      "val_AP50_percent": 93.44633519986093,
+      "val_AP50_95_percent": 70.0559922470984,
+      "val_precision_percent": 85.63886803098626,
+      "val_recall_percent": 89.1090443623143,
+      "val_F1_percent": 87.3395004952757
+    },
+    {
+      "class_id": 6,
+      "class_name": "Blast",
+      "train_images": 827,
+      "train_boxes_effective": 2987,
+      "train_boxes_before_loader": 2989,
+      "small32_percent": 30.632741881486442,
+      "min_side8_percent": 10.579176431201875,
+      "median_area_px2": 3568.0312653022156,
+      "val_AP50_percent": 51.66102197938828,
+      "val_AP50_95_percent": 27.26485790358642,
+      "val_precision_percent": 68.6384077223978,
+      "val_recall_percent": 43.013698630136986,
+      "val_F1_percent": 52.885554615542816
+    },
+    {
+      "class_id": 7,
+      "class_name": "BrownSpot",
+      "train_images": 856,
+      "train_boxes_effective": 3202,
+      "train_boxes_before_loader": 3204,
+      "small32_percent": 42.72329793878826,
+      "min_side8_percent": 8.30730793254216,
+      "median_area_px2": 1407.2265625,
+      "val_AP50_percent": 34.46413278619133,
+      "val_AP50_95_percent": 14.568023217009962,
+      "val_precision_percent": 61.732379365989374,
+      "val_recall_percent": 27.961672473867594,
+      "val_F1_percent": 38.489521600523766
+    },
+    {
+      "class_id": 8,
+      "class_name": "Healthy",
+      "train_images": 349,
+      "train_boxes_effective": 444,
+      "train_boxes_before_loader": 444,
+      "small32_percent": 2.9279279279279278,
+      "min_side8_percent": 2.9279279279279278,
+      "median_area_px2": 155435.96255779266,
+      "val_AP50_percent": 65.32647725145615,
+      "val_AP50_95_percent": 50.554929206275276,
+      "val_precision_percent": 61.100627142996665,
+      "val_recall_percent": 78.11282475687952,
+      "val_F1_percent": 68.56726150270224
+    },
+    {
+      "class_id": 9,
+      "class_name": "Leaf Scald",
+      "train_images": 529,
+      "train_boxes_effective": 1024,
+      "train_boxes_before_loader": 1024,
+      "small32_percent": 16.30859375,
+      "min_side8_percent": 1.953125,
+      "median_area_px2": 24170.83080011662,
+      "val_AP50_percent": 43.83679307107491,
+      "val_AP50_95_percent": 23.237388986049567,
+      "val_precision_percent": 61.23398674616265,
+      "val_recall_percent": 38.9937106918239,
+      "val_F1_percent": 47.646317828745936
+    },
+    {
+      "class_id": 10,
+      "class_name": "Rice-Tungro",
+      "train_images": 765,
+      "train_boxes_effective": 2468,
+      "train_boxes_before_loader": 2471,
+      "small32_percent": 13.249594813614262,
+      "min_side8_percent": 3.3225283630470015,
+      "median_area_px2": 12804.699897766113,
+      "val_AP50_percent": 65.24579845802958,
+      "val_AP50_95_percent": 40.47968046717173,
+      "val_precision_percent": 71.82898494026365,
+      "val_recall_percent": 60.215053763440864,
+      "val_F1_percent": 65.51126779235685
+    },
+    {
+      "class_id": 11,
+      "class_name": "Sheath Blight",
+      "train_images": 399,
+      "train_boxes_effective": 1114,
+      "train_boxes_before_loader": 1114,
+      "small32_percent": 17.414721723518852,
+      "min_side8_percent": 4.488330341113106,
+      "median_area_px2": 11800.010108947754,
+      "val_AP50_percent": 52.77501887344689,
+      "val_AP50_95_percent": 30.571776445294972,
+      "val_precision_percent": 59.99632086061818,
+      "val_recall_percent": 57.16772722170439,
+      "val_F1_percent": 58.54787985570056
+    },
+    {
+      "class_id": 12,
+      "class_name": "Bacterial leaf blight",
+      "train_images": 234,
+      "train_boxes_effective": 476,
+      "train_boxes_before_loader": 476,
+      "small32_percent": 6.302521008403361,
+      "min_side8_percent": 0.0,
+      "median_area_px2": 13831.428446112295,
+      "val_AP50_percent": 37.20930334603699,
+      "val_AP50_95_percent": 16.04542093310452,
+      "val_precision_percent": 48.154561018305294,
+      "val_recall_percent": 42.35413145396217,
+      "val_F1_percent": 45.0684802037567
+    },
+    {
+      "class_id": 13,
+      "class_name": "Brown spot",
+      "train_images": 259,
+      "train_boxes_effective": 1622,
+      "train_boxes_before_loader": 1622,
+      "small32_percent": 60.60419235511714,
+      "min_side8_percent": 8.631319358816276,
+      "median_area_px2": 721.5000269412997,
+      "val_AP50_percent": 31.01206101611452,
+      "val_AP50_95_percent": 13.481026719118644,
+      "val_precision_percent": 45.614802934213614,
+      "val_recall_percent": 28.115015974440894,
+      "val_F1_percent": 34.78812052299376
+    },
+    {
+      "class_id": 14,
+      "class_name": "Leaf blast",
+      "train_images": 262,
+      "train_boxes_effective": 283,
+      "train_boxes_before_loader": 283,
+      "small32_percent": 3.8869257950530036,
+      "min_side8_percent": 0.0,
+      "median_area_px2": 206073.9926681519,
+      "val_AP50_percent": 50.46522193221359,
+      "val_AP50_95_percent": 37.833444002157215,
+      "val_precision_percent": 74.87313112849489,
+      "val_recall_percent": 47.32142857142857,
+      "val_F1_percent": 57.991182836898346
+    },
+    {
+      "class_id": 15,
+      "class_name": "Leaf scald",
+      "train_images": 147,
+      "train_boxes_effective": 147,
+      "train_boxes_before_loader": 147,
+      "small32_percent": 0.0,
+      "min_side8_percent": 0.0,
+      "median_area_px2": 183040.00244140625,
+      "val_AP50_percent": 51.4703308967841,
+      "val_AP50_95_percent": 31.01498074870691,
+      "val_precision_percent": 44.73269666781396,
+      "val_recall_percent": 98.0392156862745,
+      "val_F1_percent": 61.4344715922539
+    },
+    {
+      "class_id": 16,
+      "class_name": "Narrow brown",
+      "train_images": 222,
+      "train_boxes_effective": 222,
+      "train_boxes_before_loader": 222,
+      "small32_percent": 0.0,
+      "min_side8_percent": 0.0,
+      "median_area_px2": 147911.50539970404,
+      "val_AP50_percent": 99.2943722943723,
+      "val_AP50_95_percent": 53.74077385261297,
+      "val_precision_percent": 96.08103057224568,
+      "val_recall_percent": 98.07195959458534,
+      "val_F1_percent": 97.06628715829268
+    },
+    {
+      "class_id": 17,
+      "class_name": "healthy",
+      "train_images": 271,
+      "train_boxes_effective": 272,
+      "train_boxes_before_loader": 272,
+      "small32_percent": 0.36764705882352944,
+      "min_side8_percent": 0.36764705882352944,
+      "median_area_px2": 302330.50425720215,
+      "val_AP50_percent": 48.68545319412797,
+      "val_AP50_95_percent": 42.10748903842728,
+      "val_precision_percent": 37.101335736868776,
+      "val_recall_percent": 86.11111111111111,
+      "val_F1_percent": 51.859001679431785
+    }
+  ],
+  "weakest_validation_classes": [
+    {
+      "class_id": 13,
+      "class_name": "Brown spot",
+      "train_images": 259,
+      "train_boxes_effective": 1622,
+      "train_boxes_before_loader": 1622,
+      "small32_percent": 60.60419235511714,
+      "min_side8_percent": 8.631319358816276,
+      "median_area_px2": 721.5000269412997,
+      "val_AP50_percent": 31.01206101611452,
+      "val_AP50_95_percent": 13.481026719118644,
+      "val_precision_percent": 45.614802934213614,
+      "val_recall_percent": 28.115015974440894,
+      "val_F1_percent": 34.78812052299376
+    },
+    {
+      "class_id": 7,
+      "class_name": "BrownSpot",
+      "train_images": 856,
+      "train_boxes_effective": 3202,
+      "train_boxes_before_loader": 3204,
+      "small32_percent": 42.72329793878826,
+      "min_side8_percent": 8.30730793254216,
+      "median_area_px2": 1407.2265625,
+      "val_AP50_percent": 34.46413278619133,
+      "val_AP50_95_percent": 14.568023217009962,
+      "val_precision_percent": 61.732379365989374,
+      "val_recall_percent": 27.961672473867594,
+      "val_F1_percent": 38.489521600523766
+    },
+    {
+      "class_id": 12,
+      "class_name": "Bacterial leaf blight",
+      "train_images": 234,
+      "train_boxes_effective": 476,
+      "train_boxes_before_loader": 476,
+      "small32_percent": 6.302521008403361,
+      "min_side8_percent": 0.0,
+      "median_area_px2": 13831.428446112295,
+      "val_AP50_percent": 37.20930334603699,
+      "val_AP50_95_percent": 16.04542093310452,
+      "val_precision_percent": 48.154561018305294,
+      "val_recall_percent": 42.35413145396217,
+      "val_F1_percent": 45.0684802037567
+    },
+    {
+      "class_id": 9,
+      "class_name": "Leaf Scald",
+      "train_images": 529,
+      "train_boxes_effective": 1024,
+      "train_boxes_before_loader": 1024,
+      "small32_percent": 16.30859375,
+      "min_side8_percent": 1.953125,
+      "median_area_px2": 24170.83080011662,
+      "val_AP50_percent": 43.83679307107491,
+      "val_AP50_95_percent": 23.237388986049567,
+      "val_precision_percent": 61.23398674616265,
+      "val_recall_percent": 38.9937106918239,
+      "val_F1_percent": 47.646317828745936
+    },
+    {
+      "class_id": 6,
+      "class_name": "Blast",
+      "train_images": 827,
+      "train_boxes_effective": 2987,
+      "train_boxes_before_loader": 2989,
+      "small32_percent": 30.632741881486442,
+      "min_side8_percent": 10.579176431201875,
+      "median_area_px2": 3568.0312653022156,
+      "val_AP50_percent": 51.66102197938828,
+      "val_AP50_95_percent": 27.26485790358642,
+      "val_precision_percent": 68.6384077223978,
+      "val_recall_percent": 43.013698630136986,
+      "val_F1_percent": 52.885554615542816
+    },
+    {
+      "class_id": 11,
+      "class_name": "Sheath Blight",
+      "train_images": 399,
+      "train_boxes_effective": 1114,
+      "train_boxes_before_loader": 1114,
+      "small32_percent": 17.414721723518852,
+      "min_side8_percent": 4.488330341113106,
+      "median_area_px2": 11800.010108947754,
+      "val_AP50_percent": 52.77501887344689,
+      "val_AP50_95_percent": 30.571776445294972,
+      "val_precision_percent": 59.99632086061818,
+      "val_recall_percent": 57.16772722170439,
+      "val_F1_percent": 58.54787985570056
+    }
+  ],
+  "training_statistics_source": "trusted Ultralytics label cache used by these training runs",
+  "image_imbalance_ratio": 5.8231292517006805,
+  "box_imbalance_ratio": 21.782312925170068,
+  "train_effective_boxes": 18002,
+  "duplicate_training_label_rows_removed": 7,
+  "negative_train_images": 50,
+  "small32_percent": 22.586379291189868,
+  "name_alias_candidates": [
+    [
+      {
+        "class_id": 7,
+        "name": "BrownSpot"
+      },
+      {
+        "class_id": 13,
+        "name": "Brown spot"
+      }
+    ],
+    [
+      {
+        "class_id": 8,
+        "name": "Healthy"
+      },
+      {
+        "class_id": 17,
+        "name": "healthy"
+      }
+    ],
+    [
+      {
+        "class_id": 9,
+        "name": "Leaf Scald"
+      },
+      {
+        "class_id": 15,
+        "name": "Leaf scald"
+      }
+    ]
+  ],
+  "identical_pixel_label_conflicts": [
+    {
+      "pixel_sha256": "ae170407f9565afe0a35b0f653bc8134c6f224bebef601ec2d7b48319cc8bd6a",
+      "examples": [
+        {
+          "source_split": "train",
+          "source_file": "leaf_scald-230-_jpg.rf.b33be69848eb828d425b5c8e603c01c2.jpg",
+          "included": false,
+          "prepared_split": "",
+          "labels": [
+            {
+              "class_name": "Leaf Scald",
+              "bbox": [
+                296,
+                96,
+                72,
+                307.6
+              ]
+            },
+            {
+              "class_name": "Leaf Scald",
+              "bbox": [
+                291,
+                411,
+                25.6,
+                119.6
+              ]
+            },
+            {
+              "class_name": "Leaf Scald",
+              "bbox": [
+                285,
+                533,
+                31.6,
+                104
+              ]
+            }
+          ]
+        },
+        {
+          "source_split": "test",
+          "source_file": "leaf_scald-230-_jpg.rf.d871f088c1010827d3b13501d870db02.jpg",
+          "included": true,
+          "prepared_split": "test",
+          "labels": [
+            {
+              "class_name": "Leaf scald",
+              "bbox": [
+                149,
+                0,
+                316.5,
+                640
+              ]
+            }
+          ]
+        }
+      ],
+      "image": "label_conflict_1.jpg",
+      "interpretation": "Same decoded pixels but different annotation hashes; inspect actual classes and boxes before deciding if correction is needed."
+    },
+    {
+      "pixel_sha256": "3847388f447e1a1972b0f918bff6c9c026b704f29bbdbb882f0a818079d4593f",
+      "examples": [
+        {
+          "source_split": "train",
+          "source_file": "healthy-312-_jpg.rf.2ccd7b021fbd8e8d98d883c5699cf98f.jpg",
+          "included": true,
+          "prepared_split": "train",
+          "labels": [
+            {
+              "class_name": "healthy",
+              "bbox": [
+                157,
+                3,
+                412.5,
+                637
+              ]
+            }
+          ]
+        },
+        {
+          "source_split": "train",
+          "source_file": "healthy-86-_jpg.rf.b8921525bada3ea977daf2c16793f852.jpg",
+          "included": true,
+          "prepared_split": "train",
+          "labels": [
+            {
+              "class_name": "healthy",
+              "bbox": [
+                155,
+                0,
+                432,
+                640
+              ]
+            }
+          ]
+        }
+      ],
+      "image": "label_conflict_2.jpg",
+      "interpretation": "Same decoded pixels but different annotation hashes; inspect actual classes and boxes before deciding if correction is needed."
+    }
+  ],
+  "note": "Alias names do not prove semantic equivalence. Retain18 classes and fixed evaluation labels until an expert approves a consistent annotation policy."
+}
