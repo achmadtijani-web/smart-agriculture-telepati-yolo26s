@@ -1,0 +1,20 @@
+﻿predicted / actual,0: Bacterial panicle Blight,1: False-Smut,2: Healthy Rice Leaf,3: Healthy Rice beads,4: Infected Blast,5: Leaf-roller,6: Blast,7: BrownSpot,8: Healthy,9: Leaf Scald,10: Rice-Tungro,11: Sheath Blight,12: Bacterial leaf blight,13: Brown spot,14: Leaf blast,15: Leaf scald,16: Narrow brown,17: healthy,background
+0: Bacterial panicle Blight,31,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+1: False-Smut,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14
+2: Healthy Rice Leaf,0,0,73,0,0,5,0,0,2,0,0,0,0,0,0,0,0,0,15
+3: Healthy Rice beads,0,0,0,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+4: Infected Blast,14,1,0,0,75,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+5: Leaf-roller,0,0,0,0,0,79,0,0,0,0,0,0,0,0,0,0,0,0,15
+6: Blast,0,0,0,0,0,0,302,8,0,0,0,0,0,0,0,0,0,0,143
+7: BrownSpot,0,0,0,0,0,0,1,302,0,1,0,0,0,0,0,0,0,0,171
+8: Healthy,0,0,0,0,0,0,0,0,101,0,0,0,0,1,0,0,0,19,54
+9: Leaf Scald,0,0,0,0,0,0,0,0,0,115,8,0,0,0,0,5,0,0,61
+10: Rice-Tungro,0,0,0,0,0,0,0,0,0,8,421,0,0,0,0,0,0,0,185
+11: Sheath Blight,0,0,0,0,0,0,0,0,0,5,0,235,0,0,0,0,0,0,164
+12: Bacterial leaf blight,0,0,0,0,0,0,0,0,0,0,0,0,54,0,0,0,0,0,58
+13: Brown spot,0,0,0,0,0,0,0,0,0,0,0,0,0,87,8,0,0,1,73
+14: Leaf blast,0,0,0,0,0,0,0,0,1,0,0,0,0,1,51,0,1,0,25
+15: Leaf scald,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,44,0,0,69
+16: Narrow brown,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,68,0,9
+17: healthy,0,0,0,0,0,0,0,0,45,0,0,0,0,0,0,0,0,48,74
+background,0,4,5,7,9,3,427,838,36,189,315,190,71,223,52,2,6,4,0

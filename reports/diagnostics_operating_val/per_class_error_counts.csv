@@ -1,0 +1,19 @@
+﻿class_id,class_name,gt_instances,correct,missed,wrong_class,unmatched_predictions
+0,Bacterial panicle Blight,45,31,0,14,6
+1,False-Smut,86,81,4,1,14
+2,Healthy Rice Leaf,78,73,5,0,15
+3,Healthy Rice beads,72,65,7,0,5
+4,Infected Blast,92,75,9,8,10
+5,Leaf-roller,87,79,3,5,15
+6,Blast,730,302,427,1,143
+7,BrownSpot,1148,302,838,8,171
+8,Healthy,185,101,36,48,54
+9,Leaf Scald,318,115,189,14,61
+10,Rice-Tungro,744,421,315,8,185
+11,Sheath Blight,425,235,190,0,164
+12,Bacterial leaf blight,125,54,71,0,58
+13,Brown spot,313,87,223,3,73
+14,Leaf blast,112,51,52,9,25
+15,Leaf scald,51,44,2,5,69
+16,Narrow brown,75,68,6,1,9
+17,healthy,72,48,4,20,74

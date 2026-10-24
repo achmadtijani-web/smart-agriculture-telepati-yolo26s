@@ -1,0 +1,118 @@
+{
+  "status": "complete",
+  "split": "val",
+  "images": 2046,
+  "gt_instances": 4758,
+  "weights_sha256": "2b4a698f807590bea2a8f91bcd9d7b54b52f3b48d76640a421fb9fb9398d959b",
+  "confidence": 0.26626626626626626,
+  "matching_iou": 0.5,
+  "nms_iou": 0.7,
+  "imgsz": 640,
+  "axes": "rows=predicted, columns=actual; final row/column is background",
+  "top_class_confusions": [
+    {
+      "actual_class": "Healthy",
+      "predicted_class": "healthy",
+      "count": 45
+    },
+    {
+      "actual_class": "healthy",
+      "predicted_class": "Healthy",
+      "count": 19
+    },
+    {
+      "actual_class": "Bacterial panicle Blight",
+      "predicted_class": "Infected Blast",
+      "count": 14
+    },
+    {
+      "actual_class": "Infected Blast",
+      "predicted_class": "Bacterial panicle Blight",
+      "count": 8
+    },
+    {
+      "actual_class": "BrownSpot",
+      "predicted_class": "Blast",
+      "count": 8
+    },
+    {
+      "actual_class": "Rice-Tungro",
+      "predicted_class": "Leaf Scald",
+      "count": 8
+    },
+    {
+      "actual_class": "Leaf Scald",
+      "predicted_class": "Rice-Tungro",
+      "count": 8
+    },
+    {
+      "actual_class": "Leaf blast",
+      "predicted_class": "Brown spot",
+      "count": 8
+    },
+    {
+      "actual_class": "Leaf-roller",
+      "predicted_class": "Healthy Rice Leaf",
+      "count": 5
+    },
+    {
+      "actual_class": "Leaf scald",
+      "predicted_class": "Leaf Scald",
+      "count": 5
+    },
+    {
+      "actual_class": "Leaf Scald",
+      "predicted_class": "Sheath Blight",
+      "count": 5
+    },
+    {
+      "actual_class": "Healthy",
+      "predicted_class": "Healthy Rice Leaf",
+      "count": 2
+    },
+    {
+      "actual_class": "False-Smut",
+      "predicted_class": "Infected Blast",
+      "count": 1
+    },
+    {
+      "actual_class": "Blast",
+      "predicted_class": "BrownSpot",
+      "count": 1
+    },
+    {
+      "actual_class": "Leaf Scald",
+      "predicted_class": "BrownSpot",
+      "count": 1
+    },
+    {
+      "actual_class": "Brown spot",
+      "predicted_class": "Healthy",
+      "count": 1
+    },
+    {
+      "actual_class": "healthy",
+      "predicted_class": "Brown spot",
+      "count": 1
+    },
+    {
+      "actual_class": "Healthy",
+      "predicted_class": "Leaf blast",
+      "count": 1
+    },
+    {
+      "actual_class": "Brown spot",
+      "predicted_class": "Leaf blast",
+      "count": 1
+    },
+    {
+      "actual_class": "Narrow brown",
+      "predicted_class": "Leaf blast",
+      "count": 1
+    }
+  ],
+  "unmatched_ground_truth": 2381,
+  "unmatched_predictions": 1151,
+  "correct_class_and_box_matches": 2232,
+  "note": "Diagnostic class-agnostic IoU-greedy confusion assignment differs from class-aware AP curve matching. Do not replace submitted macro-F1 by arithmetic from this matrix."
+}
