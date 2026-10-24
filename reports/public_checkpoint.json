@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "source_checkpoint_sha256": "232fd2295d08cf482a9ec99092a757caa0bff350d65593e33d2beff5645f74b0",
+  "published_checkpoint_sha256": "2b4a698f807590bea2a8f91bcd9d7b54b52f3b48d76640a421fb9fb9398d959b",
+  "tensor_state_sha256": "f12e532f1ebb9d5b1841191d170755a5fd75ce2ba36ce37fabacdd9f56d875fb",
+  "all_tensors_unchanged": true,
+  "absolute_metadata_paths_replaced": 5,
+  "note": "Only machine-specific metadata paths changed. Public weights are evaluated again before packaging."
+}

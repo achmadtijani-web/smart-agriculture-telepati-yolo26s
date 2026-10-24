@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "scope": "Hardware pilot only;148 training/74 validation images and no test images.",
+  "batch_size": 8,
+  "grad_accum_steps": 2,
+  "resolution": 640,
+  "gradient_checkpointing": true,
+  "step_seconds_after_warmup": 1.136707266666781,
+  "batch_cadence_seconds": 1.4642199933333662,
+  "estimated_full_training_epoch_minutes": 26.911143294139492,
+  "estimated_12_epoch_training_hours": 5.3822286588278985,
+  "note": "Estimates exclude full2046-image validation and checkpoint I/O; pilot accuracy is not compared to full-data YOLO.",
+  "elapsed_seconds": 75.75239449999935,
+  "peak_allocated_MiB": 3499.17822265625,
+  "peak_reserved_MiB": 4020.0,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "rfdetr": "1.9.0",
+  "torch": "2.7.1+cu128"
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "active_class_count": 18,
+  "classes": [
+    {
+      "yolo_id": 0,
+      "coco_id": 1,
+      "name": "Bacterial panicle Blight",
+      "supercategory": "Leaf-blight"
+    },
+    {
+      "yolo_id": 1,
+      "coco_id": 2,
+      "name": "False-Smut",
+      "supercategory": "Leaf-blight"
+    },
+    {
+      "yolo_id": 2,
+      "coco_id": 3,
+      "name": "Healthy Rice Leaf",
+      "supercategory": "Leaf-blight"
+    },
+    {
+      "yolo_id": 3,
+      "coco_id": 4,
+      "name": "Healthy Rice beads",
+      "supercategory": "Leaf-blight"
+    },
+    {
+      "yolo_id": 4,
+      "coco_id": 5,
+      "name": "Infected Blast",
+      "supercategory": "Leaf-blight"
+    },
+    {
+      "yolo_id": 5,
+      "coco_id": 6,
+      "name": "Leaf-roller",
+      "supercategory": "Leaf-blight"
+    },
+    {
+      "yolo_id": 6,
+      "coco_id": 8,
+      "name": "Blast",
+      "supercategory": "Rice-Leaf-Diseasee"
+    },
+    {
+      "yolo_id": 7,
+      "coco_id": 9,
+      "name": "BrownSpot",
+      "supercategory": "Rice-Leaf-Diseasee"
+    },
+    {
+      "yolo_id": 8,
+      "coco_id": 10,
+      "name": "Healthy",
+      "supercategory": "Rice-Leaf-Diseasee"
+    },
+    {
+      "yolo_id": 9,
+      "coco_id": 11,
+      "name": "Leaf Scald",
+      "supercategory": "Rice-Leaf-Diseasee"
+    },
+    {
+      "yolo_id": 10,
+      "coco_id": 12,
+      "name": "Rice-Tungro",
+      "supercategory": "Rice-Leaf-Diseasee"
+    },
+    {
+      "yolo_id": 11,
+      "coco_id": 13,
+      "name": "Sheath Blight",
+      "supercategory": "Rice-Leaf-Diseasee"
+    },
+    {
+      "yolo_id": 12,
+      "coco_id": 15,
+      "name": "Bacterial leaf blight",
+      "supercategory": "paddy"
+    },
+    {
+      "yolo_id": 13,
+      "coco_id": 16,
+      "name": "Brown spot",
+      "supercategory": "paddy"
+    },
+    {
+      "yolo_id": 14,
+      "coco_id": 17,
+      "name": "Leaf blast",
+      "supercategory": "paddy"
+    },
+    {
+      "yolo_id": 15,
+      "coco_id": 18,
+      "name": "Leaf scald",
+      "supercategory": "paddy"
+    },
+    {
+      "yolo_id": 16,
+      "coco_id": 19,
+      "name": "Narrow brown",
+      "supercategory": "paddy"
+    },
+    {
+      "yolo_id": 17,
+      "coco_id": 20,
+      "name": "healthy",
+      "supercategory": "paddy"
+    }
+  ],
+  "excluded_inactive_categories": [
+    {
+      "id": 0,
+      "name": "Leaf-blight",
+      "supercategory": "none"
+    },
+    {
+      "id": 7,
+      "name": "Rice-Leaf-Diseasee",
+      "supercategory": "none"
+    },
+    {
+      "id": 14,
+      "name": "paddy",
+      "supercategory": "none"
+    }
+  ],
+  "policy": "Preserve each active category name and ID relation. Similar names were not merged without domain evidence."
+}

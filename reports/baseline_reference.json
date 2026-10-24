@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-19T16:24:39.665959+00:00",
+  "weights": "not-distributed/yolo11n_baseline_original.pt",
+  "weights_sha256": "b4943f884ae90da84df3db751a4dcbb2469c09fc49762672994a9fa9fa772007",
+  "data_yaml": "data/yolo/data.yaml",
+  "data_yaml_sha256": "a82abdec6a0c3aca374dc8b2342e865eb89babe0ca569eb5bedfc29b820094b6",
+  "device": "0",
+  "ultralytics": "8.4.182",
+  "torch": "2.7.1+cu128",
+  "imgsz": 640,
+  "nms_iou": 0.7,
+  "ap_confidence_floor": 0.001,
+  "max_det": 300,
+  "confusion_matrix_plot": {
+    "confidence": 0.001,
+    "matching_iou": 0.45
+  },
+  "threshold_selection": "Confidence dengan macro-F1 validation tertinggi pada kurva Ultralytics.",
+  "precision_recall_note": "P/R interpolasi kurva pada confidence validation yang sama; IoU matching 0.50. Angka bukan accuracy klasifikasi dan confidence bukan probabilitas terkalibrasi.",
+  "selected_confidence": 0.2092092092092092,
+  "validation_threshold_has_true_positives": true,
+  "val": {
+    "mAP50": 0.5703994099138291,
+    "mAP50_95": 0.3401951312509935,
+    "macro_precision_iou50": 0.5592716383505622,
+    "macro_recall_iou50": 0.6687126386125346,
+    "macro_f1_iou50": 0.5866871441297347,
+    "gt_instances": 4758,
+    "classes_evaluated": 18,
+    "speed_ms_per_image": {
+      "preprocess": 1.0189126099689791,
+      "inference": 3.4487684262006675,
+      "loss": 0.0005234115386201888,
+      "postprocess": 1.0687960899305793
+    }
+  },
+  "test": {
+    "mAP50": 0.6133025992712194,
+    "mAP50_95": 0.3856096737010839,
+    "macro_precision_iou50": 0.5623064693019931,
+    "macro_recall_iou50": 0.6868731793325563,
+    "macro_f1_iou50": 0.5920538998594412,
+    "gt_instances": 2669,
+    "classes_evaluated": 18,
+    "speed_ms_per_image": {
+      "preprocess": 0.9699284230372077,
+      "inference": 3.546738054766508,
+      "loss": 0.0005154863064609577,
+      "postprocess": 1.0826455146387306
+    }
+  },
+  "reference_provenance_note": "Historical evaluation preserves the original file SHA256. Any public serialization is identified separately; metric values are unchanged."
+}

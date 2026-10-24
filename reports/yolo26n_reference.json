@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-19T21:57:04.935315+00:00",
+  "weights": "not-distributed/yolo26n_original.pt",
+  "weights_sha256": "4499715bd0bca7c2a89107f9015996e6bd03415f087e0600e8bb303b13b988c7",
+  "data_yaml": "data/yolo/data.yaml",
+  "data_yaml_sha256": "a82abdec6a0c3aca374dc8b2342e865eb89babe0ca569eb5bedfc29b820094b6",
+  "device": "0",
+  "ultralytics": "8.4.182",
+  "torch": "2.7.1+cu128",
+  "imgsz": 640,
+  "nms_iou": 0.7,
+  "ap_confidence_floor": 0.001,
+  "max_det": 300,
+  "nms": null,
+  "inference_mode_note": "Ultralytics default NMS; YOLO26 uses the one-to-many head.",
+  "confusion_matrix_plot": {
+    "confidence": 0.001,
+    "matching_iou": 0.45
+  },
+  "threshold_selection": "Confidence dengan macro-F1 validation tertinggi pada kurva Ultralytics.",
+  "precision_recall_note": "P/R interpolasi kurva pada confidence validation yang sama; IoU matching 0.50. Angka bukan accuracy klasifikasi dan confidence bukan probabilitas terkalibrasi.",
+  "selected_confidence": 0.22122122122122123,
+  "validation_threshold_has_true_positives": true,
+  "val": {
+    "mAP50": 0.61113520115063,
+    "mAP50_95": 0.3618386508213784,
+    "macro_precision_iou50": 0.5930558792097034,
+    "macro_recall_iou50": 0.6811620158254128,
+    "macro_f1_iou50": 0.6091460599497092,
+    "gt_instances": 4758,
+    "classes_evaluated": 18,
+    "speed_ms_per_image": {
+      "preprocess": 2.2214889051747866,
+      "inference": 4.477018230684495,
+      "loss": 0.0015802052698074452,
+      "postprocess": 3.5377727272650152
+    }
+  },
+  "test": {
+    "mAP50": 0.6437109545475317,
+    "mAP50_95": 0.4079853808497456,
+    "macro_precision_iou50": 0.5978988622738606,
+    "macro_recall_iou50": 0.7094304755059879,
+    "macro_f1_iou50": 0.6203324284404922,
+    "gt_instances": 2669,
+    "classes_evaluated": 18,
+    "speed_ms_per_image": {
+      "preprocess": 0.9607734655124776,
+      "inference": 3.458338054777009,
+      "loss": 0.003840415470707305,
+      "postprocess": 1.0911311614722055
+    }
+  },
+  "reference_provenance_note": "Historical evaluation preserves the original file SHA256. Any public serialization is identified separately; metric values are unchanged.",
+  "public_serialization": {
+    "weights": "models/yolo26n_reference.pt",
+    "sha256": "9d839a7c842353f769e7c7f639d0f35ffebe234cca50c11cde75eca359f8989c",
+    "original_sha256": "4499715bd0bca7c2a89107f9015996e6bd03415f087e0600e8bb303b13b988c7",
+    "tensor_state_unchanged": true,
+    "publication_report": "reports/public_yolo26n_reference.json"
+  }
+}

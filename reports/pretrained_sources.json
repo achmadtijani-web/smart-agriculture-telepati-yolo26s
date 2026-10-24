@@ -1,0 +1,8 @@
+{
+  "model": "yolo26s.pt",
+  "pretrained_dataset": "COCO",
+  "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s.pt",
+  "sha256": "646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b",
+  "bytes": 20422725,
+  "note": "Initial official pretrained file used by the YOLO26s candidate; not the final rice detector."
+}
